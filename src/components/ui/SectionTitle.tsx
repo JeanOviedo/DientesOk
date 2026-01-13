@@ -1,5 +1,4 @@
-import React from 'react'
-import { cn } from '@/lib/utils' // Wait, I don't have utils/cn. I'll just use template literal or create it. I said I wouldn't use clsx if not needed but for component reuse it's better. I check if lib/utils exists. It probably doesn't. I'll use simple class logic.
+
 
 interface SectionTitleProps {
     title: string
