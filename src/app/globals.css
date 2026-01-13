@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+@theme {
+  /* Premium Clinical Palette - "Future Health" */
+  --color-primary: #0ea5e9;
+  /* Sky 500 */
+  --color-primary-light: #38bdf8;
+  /* Sky 400 */
+  --color-primary-dark: #0284c7;
+  /* Sky 600 */
+
+  --color-secondary: #0f172a;
+  /* Slate 900 */
+  --color-secondary-light: #334155;
+  /* Slate 700 */
+
+  --color-accent: #2dd4bf;
+  /* Teal 400 - Freshness/Health */
+  --color-gold: #f59e0b;
+  /* Amber 500 - Premium touch */
+
+  --color-surface: #ffffff;
+  --color-surface-glass: rgba(255, 255, 255, 0.7);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  --shadow-glow: 0 0 20px -5px rgba(14, 165, 233, 0.3);
+  --shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-shine: shine 1.5s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) skewX(-15deg);
+  }
+
+  50%,
+  100% {
+    transform: translateX(200%) skewX(-15deg);
+  }
+}
+
+:root {
+  --background: #f8fafc;
+  /* Very light slate, mostly white */
+  --foreground: #1e293b;
+}
+
+body {
+  background-color: var(--background);
+  /* Subtle mesh gradient background for the whole page */
+  background-image:
+    radial-gradient(at 0% 0%, rgba(14, 165, 233, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(45, 212, 191, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(14, 165, 233, 0.05) 0px, transparent 50%);
+  background-attachment: fixed;
+
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+
+  /* Global Restrictions */
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: var(--color-surface-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+}
+
+/* Text Gradients */
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-primary) 0%, #2563eb 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Custom Utilities */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Image Drag Prevention */
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+  /* Often helps to fully block interaction on static images */
+}
+
+@layer base {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply tracking-tighter font-bold text-slate-900;
+  }
+
+  h1 {
+    @apply text-balance;
+  }
+}

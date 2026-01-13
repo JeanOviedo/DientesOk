@@ -1,0 +1,323 @@
+{
+    "general": {
+        "siteName": "DienteOk",
+        "restrictions": {
+            "blockRightClick": true,
+            "blockSelection": true,
+            "blockDrag": true
+        }
+    },
+    "navbar": {
+        "menu": [
+            {
+                "label": "Inicio",
+                "href": "#hero"
+            },
+            {
+                "label": "Servicios",
+                "href": "#services",
+                "submenu": [
+                    {
+                        "label": "Implantología",
+                        "href": "#services"
+                    },
+                    {
+                        "label": "Ortodoncia",
+                        "href": "#services"
+                    },
+                    {
+                        "label": "Blanqueamiento dental",
+                        "href": "#services"
+                    },
+                    {
+                        "label": "Corona dental",
+                        "href": "#services"
+                    },
+                    {
+                        "label": "Obturación",
+                        "href": "#services"
+                    },
+                    {
+                        "label": "Control general",
+                        "href": "#services"
+                    }
+                ]
+            },
+            {
+                "label": "Clínicas",
+                "href": "#clinics"
+            },
+            {
+                "label": "Blog",
+                "href": "#blog"
+            },
+            {
+                "label": "Contacto",
+                "href": "#contact"
+            }
+        ],
+        "cta": {
+            "label": "Acceder",
+            "href": "#login"
+        }
+    },
+    "hero": {
+        "title": "Hasta 20% OFF en tu tratamiento de implantes",
+        "badges": [
+            "Cita de Valoración",
+            "Tomografía GRATIS"
+        ],
+        "ctaPrimary": "Pide tu cita GRATIS",
+        "search": {
+            "title": "Encuentra tu clínica dental más cercana",
+            "buttons": [
+                "Buscar Clínica",
+                "Localizarme"
+            ]
+        },
+        "image": "https://img.freepik.com/foto-gratis/dentista-examinando-dientes-paciente-femenino_107420-74143.jpg"
+    },
+    "benefits": [
+        {
+            "title": "Equipo Especializado",
+            "description": "Equipo de especialistas altamente capacitados y experimentados en Implantología y Ortodoncia.",
+            "icon": "Users"
+        },
+        {
+            "title": "Tecnología Avanzada",
+            "description": "Equipos de última generación que permiten aplicar métodos de tratamiento innovadores.",
+            "icon": "Cpu"
+        },
+        {
+            "title": "Garantía y Satisfacción",
+            "description": "Atención personalizada con seguimiento de tratamientos y enfoque individual garantizado.",
+            "icon": "ShieldCheck"
+        }
+    ],
+    "testimonials": {
+        "title": "Nuestros clientes opinan",
+        "list": [
+            {
+                "name": "María González",
+                "time": "hace 2 días",
+                "stars": 5,
+                "text": "Excelente atención, me sentí muy cómoda en todo momento. Los resultados fueron increíbles.",
+                "image": "https://i.pravatar.cc/150?u=maria"
+            },
+            {
+                "name": "Carlos Rodríguez",
+                "time": "hace 1 semana",
+                "stars": 5,
+                "text": "La tecnología que usan es impresionante. Mi implante quedó perfecto y sin dolor.",
+                "image": "https://i.pravatar.cc/150?u=carlos"
+            },
+            {
+                "name": "Ana López",
+                "time": "hace 1 mes",
+                "stars": 5,
+                "text": "Recomiendo DienteOk al 100%. Profesionales muy cualificados y trato amable.",
+                "image": "https://i.pravatar.cc/150?u=ana"
+            }
+        ]
+    },
+    "about": {
+        "title": "Somos DienteOk",
+        "description": "Clínica dental destacada por nuestra especialización en implantología y ortodoncia, con atención personalizada y soluciones adaptadas a cada paciente.",
+        "metrics": [
+            {
+                "value": "+100.000",
+                "label": "Pacientes Atendidos"
+            },
+            {
+                "value": "+25",
+                "label": "Clínicas Establecidas"
+            },
+            {
+                "value": "+20",
+                "label": "Años de Experiencia"
+            },
+            {
+                "value": "+200",
+                "label": "Profesionales"
+            }
+        ],
+        "images": [
+            "https://img.freepik.com/foto-gratis/retrato-dentista-sonriente-asistente_1262-3591.jpg",
+            "https://img.freepik.com/foto-gratis/equipo-medico-hospital-moderno_1262-1133.jpg"
+        ]
+    },
+    "services": {
+        "title": "Nuestros Servicios Ofertados",
+        "items": [
+            {
+                "title": "Implantología",
+                "desc": "Recupera tu sonrisa con implantes de alta calidad.",
+                "icon": "Drill"
+            },
+            {
+                "title": "Ortodoncia",
+                "desc": "Alineación dental con brackets o alineadores invisibles.",
+                "icon": "Smile"
+            },
+            {
+                "title": "Blanqueamiento dental",
+                "desc": "Dientes más blancos y brillantes en una sola sesión.",
+                "icon": "Sparkles"
+            },
+            {
+                "title": "Corona dental",
+                "desc": "Restauración completa de la forma y función del diente.",
+                "icon": "Crown"
+            },
+            {
+                "title": "Obturación",
+                "desc": "Tratamiento de caries con materiales estéticos.",
+                "icon": "PenTool"
+            },
+            {
+                "title": "Control general",
+                "desc": "Revisiones periódicas para mantener tu salud bucal.",
+                "icon": "Activity"
+            }
+        ]
+    },
+    "clinics": {
+        "title": "Nuestras clínicas",
+        "description": "Nuestras clínicas están a la vanguardia de la tecnología dental, ofreciendo tratamientos innovadores y cómodos.",
+        "images": [
+            "https://img.freepik.com/foto-gratis/silla-dentista-oficina-dental-blanco-moderno_158595-5134.jpg",
+            "https://img.freepik.com/foto-gratis/equipos-medicos-modernos-clinica-dental_158595-5132.jpg",
+            "https://img.freepik.com/foto-gratis/interior-hospital-moderno-recepcion_1163-5353.jpg"
+        ]
+    },
+    "technology": {
+        "title": "Tecnología y experiencia",
+        "items": [
+            {
+                "label": "Equipamiento de Endodoncia",
+                "percentage": 80
+            },
+            {
+                "label": "Sala Operatoria",
+                "percentage": 90
+            },
+            {
+                "label": "Sala de Radiología",
+                "percentage": 85
+            },
+            {
+                "label": "Laboratorio",
+                "percentage": 90
+            }
+        ],
+        "image": "https://img.freepik.com/foto-gratis/mujer-sonriente-sometida-chequeo-dental_23-2149353037.jpg"
+    },
+    "faq": {
+        "title": "Preguntas Frecuentes",
+        "items": [
+            {
+                "question": "¿La primera visita tiene coste?",
+                "answer": "No, tu primera visita de valoración y diagnóstico es completamente gratuita."
+            },
+            {
+                "question": "¿Cómo pedir una cita?",
+                "answer": "Puedes agendar tu cita a través de nuestro botón 'Pide tu cita GRATIS' o llamando a nuestras líneas de atención."
+            },
+            {
+                "question": "¿Cómo saber cuál es la clínica más cercana?",
+                "answer": "Utiliza nuestro buscador de clínicas en la sección principal para encontrar la más conveniente para ti."
+            },
+            {
+                "question": "¿Horarios?",
+                "answer": "Atendemos de Lunes a Sábado de 8:00 AM a 8:00 PM."
+            },
+            {
+                "question": "¿Precios?",
+                "answer": "Nuestros precios son competitivos y varían según el tratamiento. Ofrecemos presupuestos personalizados en tu primera visita."
+            },
+            {
+                "question": "¿Formas de pago?",
+                "answer": "Aceptamos efectivo, tarjetas de crédito/débito y ofrecemos planes de financiación."
+            },
+            {
+                "question": "¿Urgencias?",
+                "answer": "Contamos con servicio de urgencias dentales. Contáctanos inmediatamente si tienes dolor agudo."
+            },
+            {
+                "question": "¿Puedo continuar mi tratamiento en otra ciudad?",
+                "answer": "Sí, al tener una red de clínicas, tu historial médico está disponible en cualquiera de nuestras sedes."
+            }
+        ]
+    },
+    "blog": {
+        "title": "Lo nuevo del Blog",
+        "posts": [
+            {
+                "title": "Cómo cuidar tus implantes dentales",
+                "excerpt": "Consejos prácticos para prolongar la vida útil de tus implantes y mantener una encía sana.",
+                "image": "https://img.freepik.com/foto-gratis/paciente-femenino-teniendo-procedimiento-dental_23-2149352934.jpg"
+            },
+            {
+                "title": "¿Brackets o alineadores invisibles?",
+                "excerpt": "Descubre cuál es la mejor opción de ortodoncia para tu caso específico y estilo de vida.",
+                "image": "https://img.freepik.com/foto-gratis/chica-joven-dentista_23-2148429994.jpg"
+            },
+            {
+                "title": "Beneficios del blanqueamiento profesional",
+                "excerpt": "Por qué es más seguro y efectivo realizar un blanqueamiento en clínica que en casa.",
+                "image": "https://img.freepik.com/foto-gratis/sonrisa-mujer-joven-dientes-blancos_23-2148761226.jpg"
+            }
+        ]
+    },
+    "footer": {
+        "text": "DienteOk es tu mejor opción para el cuidado dental integral. Tecnología, experiencia y los mejores profesionales a tu servicio.",
+        "links": [
+            {
+                "label": "Inicio",
+                "href": "#hero"
+            },
+            {
+                "label": "Servicios",
+                "href": "#services"
+            },
+            {
+                "label": "Clínicas",
+                "href": "#clinics"
+            },
+            {
+                "label": "Blog",
+                "href": "#blog"
+            },
+            {
+                "label": "Nosotros",
+                "href": "#about"
+            },
+            {
+                "label": "Contacto",
+                "href": "#contact"
+            }
+        ],
+        "policies": [
+            {
+                "label": "Política de Privacidad",
+                "href": "#"
+            },
+            {
+                "label": "Política de Cookies",
+                "href": "#"
+            },
+            {
+                "label": "Términos y Condiciones",
+                "href": "#"
+            },
+            {
+                "label": "Responsabilidades",
+                "href": "#"
+            }
+        ],
+        "contact": {
+            "cta": "¿Quieres agendar una consulta?",
+            "button": "Agendar Consulta"
+        }
+    }
+}

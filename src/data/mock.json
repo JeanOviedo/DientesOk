@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Hasta 20% OFF en tu tratamiento de implantes",
+    "subtitle": "Cita de Valoración + Tomografía GRATIS",
+    "cta": "Pide tu cita GRATIS",
+    "search": {
+      "title": "Encuentra tu clínica dental más cercana",
+      "buttons": ["Buscar Clínica", "Localizarme"]
+    }
+  },
+  "benefits": [
+    {
+      "title": "Equipo Especializado",
+      "description": "Equipo de especialistas altamente capacitados y experimentados en Implantología y Ortodoncia."
+    },
+    {
+      "title": "Tecnología Avanzada",
+      "description": "Equipos de última generación que permiten aplicar métodos de tratamiento innovadores."
+    },
+    {
+      "title": "Garantía y Satisfacción",
+      "description": "Atención personalizada con seguimiento de tratamientos y enfoque individual garantizado."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "María García",
+      "text": "Excelente atención y resultados increíbles. Me sentí muy cómoda y segura.",
+      "stars": 5,
+      "date": "Hace 2 días",
+      "image": "/images/testimonial1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Juan Pérez",
+      "text": "La mejor clínica dental. Profesionales de primera y tecnología de punta.",
+      "stars": 5,
+      "date": "Hace 1 semana",
+      "image": "/images/testimonial2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ana López",
+      "text": "Trato muy amable y cercano. Recomiendo 100% sus tratamientos de ortodoncia.",
+      "stars": 5,
+      "date": "Hace 1 mes",
+      "image": "/images/testimonial3.jpg"
+    }
+  ],
+  "about": {
+    "title": "Somos DienteOk",
+    "description": "Clínica dental destacada por nuestra especialización en implantología y ortodoncia, con atención personalizada y soluciones adaptadas a cada paciente.",
+    "metrics": [
+      { "value": "+100.000", "label": "Pacientes Atendidos" },
+      { "value": "+25", "label": "Clínicas Establecidas" },
+      { "value": "+20", "label": "Años de Experiencia" },
+      { "value": "+200", "label": "Profesionales" }
+    ]
+  },
+  "services": [
+    { "title": "Implantología", "description": "Soluciones permanentes para recuperar tu sonrisa.", "image": "/images/service-implantes.jpg" },
+    { "title": "Ortodoncia", "description": "Alinea tus dientes y mejora tu salud bucal.", "image": "/images/service-ortodoncia.jpg" },
+    { "title": "Blanqueamiento dental", "description": "Sonrisa más brillante y blanca en pocas sesiones.", "image": "/images/service-blanqueamiento.jpg" },
+    { "title": "Corona dental", "description": "Restauración dental resistente y estética.", "image": "/images/service-corona.jpg" },
+    { "title": "Obturación", "description": "Tratamiento eficaz para curar las caries.", "image": "/images/service-obturacion.jpg" },
+    { "title": "Control general", "description": "Revisiones periódicas para prevenir problemas.", "image": "/images/service-control.jpg" }
+  ],
+  "clinics": {
+    "description": "Nuestras clínicas están a la vanguardia de la tecnología dental, ofreciendo tratamientos innovadores y cómodos."
+  },
+  "technology": [
+    { "label": "Equipamiento de Endodoncia", "value": 80 },
+    { "label": "Sala Operatoria", "value": 90 },
+    { "label": "Sala de Radiología", "value": 85 },
+    { "label": "Laboratorio", "value": 90 }
+  ],
+  "faq": [
+    { "question": "¿La primera visita tiene coste?", "answer": "La primera visita de valoración es totalmente gratuita." },
+    { "question": "¿Cómo pedir una cita?", "answer": "Puedes agendar tu cita a través de nuestro formulario online o llamando a nuestro número de contacto." },
+    { "question": "¿Cómo saber cuál es la clínica más cercana?", "answer": "Usa nuestro buscador de clínicas en la página de inicio para encontrar la más próxima a tu ubicación." },
+    { "question": "¿Horarios?", "answer": "Nuestras clínicas están abiertas de lunes a viernes de 9:00 a 20:00 y sábados de 10:00 a 14:00." },
+    { "question": "¿Precios?", "answer": "Ofrecemos precios competitivos y opciones de financiación. Consúltanos para un presupuesto personalizado." },
+    { "question": "¿Formas de pago?", "answer": "Aceptamos efectivo, tarjeta de crédito/débito y ofrecemos planes de financiación." },
+    { "question": "¿Urgencias?", "answer": "Disponemos de servicio de urgencias en horario laboral. Llámanos inmediatamente." },
+    { "question": "¿Puedo continuar mi tratamiento en otra ciudad?", "answer": "Sí, gracias a nuestra red de clínicas, puedes continuar tu tratamiento en cualquier centro DienteOk." }
+  ],
+  "blog": {
+    "title": "Lo nuevo del Blog",
+    "posts": [
+      { "title": "¿Cómo cuidar tus implantes?", "excerpt": "Consejos prácticos para mantener tus implantes en perfecto estado.", "image": "/images/blog1.jpg" },
+      { "title": "Ventajas de la ortodoncia invisible", "excerpt": "Descubre por qué es una de las opciones más populares.", "image": "/images/blog2.jpg" },
+      { "title": "Alimentos que manchan tus dientes", "excerpt": "Qué evitar para mantener una sonrisa blanca.", "image": "/images/blog3.jpg" }
+    ]
+  },
+  "footer": {
+    "text": "DienteOk - Tu salud dental en las mejores manos.",
+    "links": ["Inicio", "Servicios", "Clínicas", "Blog", "Nosotros", "Contacto"],
+    "policies": ["Política de Privacidad", "Política de Cookies", "Términos y Condiciones", "Responsabilidades"]
+  }
+}
