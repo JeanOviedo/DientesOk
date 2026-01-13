@@ -1,6 +1,7 @@
 # DienteOk - Premium Dental Clinic Template
 
-![DienteOk Preview](https://via.placeholder.com/1200x600?text=DienteOk+Premium+Dev+Preview)
+![DienteOk Preview](https://jeanoviedo.com/img/dientesok.jpg)
+
 
 **DienteOk** is a high-end, modern web template designed for dental clinics and medical professionals. Built with **Next.js 16** and **TailwindCSS v4**, it offers a premium "Future Health" aesthetic with glassmorphism effects, advanced animations, and a fully responsive layout.
 
